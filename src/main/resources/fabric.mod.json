@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "wursti18nplusplugin",
+	"id": "wurst_i18n_plus_plugin",
 	"version": "${version}",
 	"name": "WurstI18nPlusPlugin",
 	"description": "一个对Wurst国际化支持增强的模组拓展",

@@ -5,7 +5,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class WurstI18nPlugin implements ModInitializer {
-	public static final String MOD_ID = "wursti18nplugin";
+	public static final String MOD_ID = "wurst_i18n_plus_plugin";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 	
 	// 在类加载时就初始化translator，确保Mixin注入时已经可用

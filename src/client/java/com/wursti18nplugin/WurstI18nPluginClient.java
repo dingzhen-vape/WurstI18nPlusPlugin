@@ -5,7 +5,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class WurstI18nPluginClient implements ClientModInitializer {
-	public static final Logger LOGGER = LoggerFactory.getLogger("wursti18nplugin");
+	public static final Logger LOGGER = LoggerFactory.getLogger("wurst_i18n_plus_plugin");
 	public final AboutAuthor aboutAuthor = new AboutAuthor();
 	@Override
 	public void onInitializeClient(){

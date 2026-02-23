@@ -22,7 +22,7 @@ loom {
 	splitEnvironmentSourceSets()
 
 	mods {
-		"wursti18nplugin" {
+		"wurst_i18n_plus_plugin" {
 			sourceSet sourceSets.main
 			sourceSet sourceSets.client
 		}

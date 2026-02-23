@@ -19,7 +19,7 @@ import java.util.Map;
 import java.util.Optional;
 
 public class Translator {
-    public static final Logger LOGGER = LoggerFactory.getLogger("WurstI18nPlugin/ResourceLoader");
+    public static final Logger LOGGER = LoggerFactory.getLogger("wurst_i18n_plus_plugin/ResourceLoader");
     private static final String MOD_ID = WurstI18nPlugin.MOD_ID;
     
     private final Map<String, String> translations = new HashMap<>();

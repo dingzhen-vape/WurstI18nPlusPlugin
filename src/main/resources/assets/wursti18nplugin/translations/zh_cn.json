@@ -402,7 +402,7 @@
   "I18n.Wurst.Setting.name.Draw replanting spots": "Draw replanting spots",
   "I18n.Wurst.Setting.name.Filter end crystals": "过滤末影水晶",
   "I18n.Wurst.Setting.name.Disable Rain": "禁用雨",
-  "wursti18nplugin.loaded111": "1.0.0",
+  "wurst_i18n_plus_plugin.loaded111": "1.0.0",
   "I18n.Wurst.Setting.name.Jump if": "Jump if",
   "I18n.Wurst.Setting.name.Block": "方块",
   "I18n.Wurst.Hack.name.MaceDMG": "重锤出击",
@@ -501,7 +501,7 @@
   "I18n.Wurst.Setting.name.Translate": "翻译",
   "I18n.Wurst.Hack.name.Spider": "蜘蛛侠",
   "I18n.Wurst.Setting.name.Debug mode": "Debug mode",
-  "wursti18nplugin.greeting": "wursti18nplugin.greeting",
+  "wurst_i18n_plus_plugin.greeting": "wurst_i18n_plus_plugin.greeting",
   "I18n.Wurst.Hack.name.ClickGUI": "clickgui",
   "I18n.Wurst.Hack.name.TP-Aura": "TP光环"
 }

@@ -35,10 +35,10 @@ public abstract class InitMixin{
     @Unique
     private void testTranslations() {
         // 翻译器已经初始化，直接使用
-        String greeting = tr("wursti18nplugin.greeting");
+        String greeting = tr("wurst_i18n_plus_plugin.greeting");
         LOGGER.info("测试翻译: {}", greeting);
 
-        String loaded = tr("wursti18nplugin.loaded111", "1.0.0");
+        String loaded = tr("wurst_i18n_plus_plugin.loaded111", "1.0.0");
         LOGGER.info("测试带参数翻译: {}", loaded);
 
         // 生成缺失翻译

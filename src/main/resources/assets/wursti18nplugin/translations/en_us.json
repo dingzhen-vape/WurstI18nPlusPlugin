@@ -1,5 +1,5 @@
 {
-  "wursti18nplugin.greeting": "wursti18nplugin.greeting",
+  "wurst_i18n_plus_plugin.greeting": "wurst_i18n_plus_plugin.greeting",
   "I18n.Wurst.Hack.name.ClickGUI": "ClickGUI",
   "I18n.Wurst.Hack.name.TP-Aura": "TP-Aura",
   "I18n.Wurst.Hack.name.NoFireOverlay": "NoFireOverlay",
@@ -405,7 +405,7 @@
   "I18n.Wurst.Setting.name.Draw replanting spots": "Draw replanting spots",
   "I18n.Wurst.Setting.name.Filter end crystals": "Filter end crystals",
   "I18n.Wurst.Setting.name.Disable Rain": "Disable Rain",
-  "wursti18nplugin.loaded111": "1.0.0",
+  "wurst_i18n_plus_plugin.loaded111": "1.0.0",
   "I18n.Wurst.Setting.name.Jump if": "Jump if",
   "I18n.Wurst.Setting.name.Block": "Block",
   "I18n.Wurst.Hack.name.MaceDMG": "MaceDMG",
