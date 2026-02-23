@@ -51,7 +51,8 @@ public class Translator {
      * 加载指定语言的翻译文件
      */
     private boolean loadTranslationFile(String langCode) {
-        String filePath = "/assets/" + MOD_ID + "/translations/" + langCode + ".json";
+        //这个地方本来是MODID的，但是我懒得改路径了我就硬编码了嘿嘿嘿
+        String filePath = "/assets/wursti18nplugin/translations/" + langCode + ".json";
         
         try (InputStream stream = getClass().getResourceAsStream(filePath)) {
             if (stream != null) {

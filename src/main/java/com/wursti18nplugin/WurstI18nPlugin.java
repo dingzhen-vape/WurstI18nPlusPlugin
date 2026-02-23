@@ -39,9 +39,6 @@ public class WurstI18nPlugin implements ModInitializer {
     }
 
 	public static String tr(String key, Object... args) {
-		if (translator != null) {
-			return translator.translate(key, args);
-		}
-		return key;
-	}
+        return translator.translate(key, args);
+    }
 }
