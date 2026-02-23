@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "com.wursti18nplugin.mixin.client",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "WorldMixin",
+    "HackMixin",
+    "InitMixin",
+    "SettingMixin"
+  ]
+}
