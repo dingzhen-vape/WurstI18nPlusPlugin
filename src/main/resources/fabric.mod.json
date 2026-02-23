@@ -11,7 +11,7 @@
 		"homepage": "https://space.bilibili.com/432060575",
 		"sources": "https://github.com/dingzhen-vape/WurstI18nPlusPlugin"
 	},
-	"license": "GPL-3.0",
+	"license": "CC0 1.0 Universal",
 	"icon": "assets/wursti18nplugin/icon.png",
 	"environment": "*",
 	"entrypoints": {

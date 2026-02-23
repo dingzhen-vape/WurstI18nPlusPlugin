@@ -1,13 +1,10 @@
 # Wurst I18n Plugin
 
-这是一个为Wurst客户端(Minecraft 1.21.11)开发的国际化(I18n)插件，提供中文翻译支持。
+这是一个为Wurst客户端(Minecraft 1.21.11)开发的国际化(I18n)加强插件，目前提供中文翻译支持。
 
 ## 功能特性
 
 - 为Wurst客户端提供中文界面翻译
-- 支持Minecraft 1.21.11版本
-- 基于Fabric Mod Loader开发
-- 完整的Mixin集成
 
 ## 项目结构
 
@@ -26,7 +23,7 @@ wursti18nplugin-template-1.21.11/
 - Java 21 或更高版本
 - Gradle 8.0+ 或使用项目自带的gradlew
 - Minecraft 1.21.11
-- Wurst Client v7.52 for MC1.21.11
+- Wurst Client v7.52 for MC1.21.11 或者更高版本
 
 ## 安装与构建
 
@@ -34,9 +31,8 @@ wursti18nplugin-template-1.21.11/
 
 **重要：** 你需要手动获取Wurst客户端的JAR文件并放置在`libs/`目录中。
 
-1. 从[Wurst官方网站](https://www.wurstclient.net/)下载Wurst Client v7.52 for MC1.21.11
-2. 将下载的JAR文件重命名为：`Wurst-Client-v7.52-MC1.21.11.jar`
-3. 将文件复制到项目的`libs/`目录中
+1. 从[Wurst官方网站](https://www.wurstclient.net/)下载Wurst Client
+2将文件复制到项目的`libs/`目录中
 
 ### 2. 构建项目
 
@@ -54,7 +50,7 @@ gradlew build
 
 ### 3. 安装到Minecraft
 
-1. 将生成的`wursti18nplugin-1.0.0.jar`文件复制到Minecraft的`mods/`目录
+1. 将生成的`wursti18nplugin-*-*.jar`文件复制到Minecraft的`mods/`目录
 2. 确保已安装Fabric Loader
 3. 启动Minecraft并选择Fabric配置文件
 
@@ -66,8 +62,8 @@ gradlew build
 
 ```gradle
 dependencies {
-    // ... 其他依赖
-    modImplementation files("libs/Wurst-Client-v7.52-MC1.21.11.jar")
+    // ...
+    modImplementation files("libs/Wurst-Client-*-*.jar")
     implementation "com.google.code.gson:gson:2.13.2"
 }
 ```
@@ -86,8 +82,6 @@ dependencies {
 主要配置项包括：
 - `minecraft_version`: Minecraft版本
 - `mod_version`: 插件版本
-- `maven_group`: Maven组ID
-- `archives_base_name`: 输出文件基础名称
 
 ## 开发指南
 
@@ -119,7 +113,7 @@ gradlew runServer
 
 ## 许可证
 
-本项目基于MIT许可证开源。详见[LICENSE](LICENSE)文件。
+本项目基于CC0许可证开源。详见[LICENSE](LICENSE)文件。
 
 ## 贡献
 
@@ -134,8 +128,8 @@ gradlew runServer
    - 检查文件名是否与`build.gradle`中的引用一致
 
 2. **游戏崩溃或Mod不工作**
-   - 确保Minecraft版本为1.21.11
-   - 确保Wurst客户端版本为v7.52
+   - 确保Minecraft版本
+   - 确保Wurst客户端版本
    - 检查Fabric Loader是否正确安装
 
 3. **翻译不显示**
