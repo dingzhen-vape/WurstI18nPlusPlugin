@@ -1,0 +1,2 @@
+# WurstI18nPlusPlugin
+一个对Wurst的国际化功能进行增强的模组拓展
