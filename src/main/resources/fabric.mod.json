@@ -1,17 +1,17 @@
 {
 	"schemaVersion": 1,
-	"id": "wursti18nplugin",
+	"id": "wursti18nplusplugin",
 	"version": "${version}",
-	"name": "WurstI18nPlugin",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "WurstI18nPlusPlugin",
+	"description": "一个对Wurst国际化支持增强的模组拓展",
 	"authors": [
-		"Me!"
+		"食我压路"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://space.bilibili.com/432060575",
+		"sources": "https://github.com/dingzhen-vape/WurstI18nPlusPlugin"
 	},
-	"license": "CC0-1.0",
+	"license": "GPL-3.0",
 	"icon": "assets/wursti18nplugin/icon.png",
 	"environment": "*",
 	"entrypoints": {
