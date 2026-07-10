@@ -818,5 +818,22 @@
   "I18n.Wurst.Setting.Chest boat color.description": "带箱子的船将以此颜色高亮显示。",
   "I18n.Wurst.Setting.Show speed in HackList.description": "在HackList中显示当前的水平和垂直镜头移动速度。",
   "I18n.Wurst.Setting.Jump if.description": "",
-  "I18n.Wurst.Setting.Prevent slowdown.description": "允许你在水下以全速行走。\n某些服务器视此为速度作弊。"
+  "I18n.Wurst.Setting.Prevent slowdown.description": "允许你在水下以全速行走。\n某些服务器视此为速度作弊。",
+  "I18n.Wurst.Setting.Only with Killaura.description": "仅在杀戮光环启用时激活。",
+  "I18n.Wurst.Setting.name.Target slot": "目标栏位",
+  "I18n.Wurst.Setting.Target slot.description": "要切换到的快捷栏槽位（简单模式）。",
+  "I18n.Wurst.Setting.name.Breach swapping": "破防切换",
+  "I18n.Wurst.Setting.Swap back.description": "延迟后切回原槽位。",
+  "I18n.Wurst.Setting.Item saver.description": "切换到不可损坏的物品以节省主武器耐久度（智能模式）。",
+  "I18n.Wurst.Hack.name.AttributeSwap": "武器自动切换",
+  "I18n.Wurst.Setting.Swap-back delay.description": "切回前等待的游戏刻数。",
+  "I18n.Wurst.Setting.Shield breaker.description": "当目标举盾时切换到斧头（智能模式）。",
+  "I18n.Wurst.Setting.name.Swap back": "切回",
+  "I18n.Wurst.Setting.name.Shield breaker": "破盾",
+  "I18n.Wurst.Setting.Middle click friends.description": "通过鼠标中键点击玩家来添加/移除好友。",
+  "I18n.Wurst.Setting.name.Swap-back delay": "切回延迟",
+  "I18n.Wurst.Setting.Breach swapping.description": "切换到具有破甲附魔的锤子以造成更多伤害（智能模式）。",
+  "I18n.Wurst.Setting.name.Item saver": "物品保护",
+  "I18n.Wurst.Setting.name.Only with Killaura": "仅限杀戮光环"
+  
 }
