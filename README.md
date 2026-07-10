@@ -25,7 +25,7 @@ wursti18nplugin-template-1.21.11/
 ├── src/
 │   ├── main/          # 主模块代码
 │   └── client/        # 客户端模块代码
-├── libs/              # 依赖库目录
+├── lib/               # Wurst Client 本地依赖目录
 ├── build.gradle       # Gradle构建配置
 └── README.md          # 项目说明文档
 ```
@@ -35,16 +35,16 @@ wursti18nplugin-template-1.21.11/
 - Java 21 或更高版本
 - Gradle 8.0+ 或使用项目自带的gradlew
 - Minecraft 1.21.11
-- Wurst Client v7.52 for MC1.21.11 或者更高版本
+- Wurst Client v7.54.1 for MC1.21.11
 
 ## 安装与构建
 
 ### 1. 获取Wurst客户端JAR文件
 
-**重要：** 你需要手动获取Wurst客户端的JAR文件并放置在`libs/`目录中。
+**重要：** 你需要手动获取 Wurst Client v7.54.1 for MC1.21.11 的 JAR 文件，并放置在 `lib/` 目录中。
 
 1. 从[Wurst官方网站](https://www.wurstclient.net/)下载Wurst Client
-2将文件复制到项目的`libs/`目录中
+2. 将文件复制到项目的 `lib/` 目录中
 
 ### 2. 构建项目
 
@@ -75,8 +75,8 @@ gradlew build
 
 ```gradle
 dependencies {
-    // ...
-    modImplementation files("libs/Wurst-Client-*-*.jar")
+   // ...
+   implementation files("lib/Wurst-Client-v7.54.1-MC1.21.11.jar")
     implementation "com.google.code.gson:gson:2.13.2"
 }
 ```
@@ -85,7 +85,7 @@ dependencies {
 
 1. **JAR文件名**：如果Wurst JAR文件名不同，需要更新`build.gradle`中的引用：
    ```gradle
-   modImplementation files("libs/你的-Wurst-JAR-文件名.jar")
+   implementation files("lib/你的-Wurst-JAR-文件名.jar")
    ```
 
 2. **Minecraft版本**：如果需要适配其他Minecraft版本，需要修改`gradle.properties`中的相关配置。
@@ -137,7 +137,7 @@ gradlew runServer
 ### 常见问题
 
 1. **构建失败：找不到Wurst JAR文件**
-   - 确保`libs/Wurst-Client-v7.52-MC1.21.11.jar`文件存在
+   - 确保`lib/Wurst-Client-v7.54.1-MC1.21.11.jar`文件存在
    - 检查文件名是否与`build.gradle`中的引用一致
 
 2. **游戏崩溃或Mod不工作**
@@ -153,5 +153,5 @@ gradlew runServer
 
 ### v1.0.0
 - 初始版本发布
-- 支持Wurst Client v7.52 for MC1.21.11
+- 支持 Wurst Client v7.54.1 for MC1.21.11
 - 提供基础中文翻译
