@@ -88,6 +88,7 @@ public class Translator {
         }
         try(FileWriter writer = new FileWriter("lackingTranslations/LackingTranslation.json")){
             writer.write(json);
+            this.LackingTranslation.clear();
         } catch (Exception e) {
             LOGGER.error("写入缺少翻译文件时出错", e);
         }
