@@ -1,5 +1,5 @@
 # Wurst I18n Plugin
-
+### ![repo-size](https://img.shields.io/github/repo-size/dingzhen-vape/Meteor-I18n-Support-plugin) ![Downloads](https://img.shields.io/github/downloads/dingzhen-vape/Meteor-I18n-Support-plugin/total)
 这是一个为Wurst客户端(Minecraft 1.21.11)开发的国际化(I18n)加强插件，目前提供中文翻译支持。
 
 ## 功能特性
