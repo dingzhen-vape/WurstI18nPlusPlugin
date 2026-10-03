@@ -27,7 +27,7 @@ public abstract class InitMixin{
     @Inject(method = "getCurrentLangCodes",at = @At("RETURN"))
     private void getCurrentLangCodesMixin(CallbackInfoReturnable<ArrayList<String>> cir) {
         // 翻译器已经在WurstI18nPlugin类加载时初始化，直接使用
-        WurstI18nPlugin.getTranslator().initialize(cir.getReturnValue().get(1));
+        WurstI18nPlugin.getTranslator().initialize(cir.getReturnValue().get(cir.getReturnValue().size() - 1));
         testTranslations();
     }
     

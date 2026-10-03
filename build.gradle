@@ -39,7 +39,7 @@ dependencies {
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
 
-	implementation files("libs/Wurst-Client-v7.53.1-MC26.1.2.jar")
+	implementation files("libs/Wurst-Client-v7.55.2-MC26.3.jar")
 	implementation "com.google.code.gson:gson:2.13.2"
 }
 

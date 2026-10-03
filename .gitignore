@@ -40,5 +40,5 @@ replay_*.log
 *.jfr
 
 # misc
-Wurst7/
+Wurst7-master/
 libs/*
